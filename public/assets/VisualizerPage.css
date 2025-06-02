@@ -1,0 +1,54 @@
+:root {
+    --navbar-height: 60px;
+    --background-color: #f5f5f5;
+    --primary-color: #2196f3;
+    --secondary-color: #f50057;
+    --success-color: #4caf50;
+    --text-color: #333;
+  }
+  
+  .visualizer-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: calc(var(--navbar-height) + 20px) 20px 40px;
+    background-color: var(--background-color);
+    gap: 20px;
+    max-width: 1000px; /* NEW */
+    margin: 0 auto; /* NEW */
+  }
+  
+  .controls-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1000px;
+  }
+  
+  .algorithm-info {
+    padding: 16px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1000px;
+  }
+  
+  /* Media queries for responsive layout */
+  @media screen and (max-width: 768px) {
+    .visualizer-page {
+      padding-top: calc(var(--navbar-height) + 10px);
+    }
+  
+    .controls-container {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  }
