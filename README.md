@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# react-sortin-visualizer
-sorting visualizer app in react
-=======
 # 🧠 Sorting Visualizer
 
 A dynamic and interactive **Sorting Algorithm Visualizer** built with **React**!  
@@ -21,4 +17,3 @@ This app helps you understand how different sorting algorithms work by visualizi
 - 🔄 Generate new arrays with random values
 - 📱 Mobile-responsive design
 
->>>>>>> b1bcc8f (sorting visualizer in react)
